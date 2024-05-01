@@ -4,7 +4,7 @@
 
 This project is a React-based dashboard designed to visualize data related to different types of ships. It provides users with the ability to filter the data based on various ship types and display them dynamically on a map interface. Additionally, it features a heatmap functionality to visualize ship density over time and a dynamic legend.
 
-![Filter and HeatMap Output]https://github.com/Mseher/React-HeatMap-Filters/blob/main/output.jpg
+![Filter and HeatMap Output](https://github.com/Mseher/React-HeatMap-Filters/blob/main/output.jpg)
 
 ### Functions
 
