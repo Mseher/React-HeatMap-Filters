@@ -20,6 +20,8 @@ This project is a React-based dashboard designed to visualize data related to di
 - **JavaScript (ES6+)**: Programming language used for application logic.
 - **HTML/CSS**: Markup and styling languages for web development.
 
+![Filters on left side](https://github.com/Mseher/React-HeatMap-Filters/blob/main/side%20outlook.jpg)
+
 ## How to Run the Project
 
 Follow these steps to run the project locally:
