@@ -1,0 +1,32 @@
+.slider-container {
+    position: relative;
+  }
+  
+  .custom-slider {
+    width: 100%;
+    color: black;
+    z-index: 2;
+    opacity: 50%;
+  }
+  
+  .slider-bar {
+    position: absolute;
+    top: 50%;
+    width: 85%;
+    height: 5px;
+    background-color: #ddd; /* Adjust color as needed */
+    transform: translateY(-50%);
+    z-index: 0; /* Change z-index value */
+    justify-content: center;
+    z-index:1;
+  }
+
+  /* Button styles */
+.btn-custom {
+  background-color: #7aaf65; /* Olive green color */
+  border-color: #7aaf65; /* Olive green border color */
+  color: white; /* White text color */
+}
+
+  
+  

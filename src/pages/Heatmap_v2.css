@@ -1,0 +1,66 @@
+.slider-container {
+    position: relative;
+    width: 70%;
+    
+  }
+  
+  .custom-slider {
+    width: 60%;
+    color: black;
+    z-index: 0;
+    opacity: 50%;
+  }
+
+  .custom-slider::-webkit-slider-thumb {
+    -webkit-transition: all 0.025; /* Adjust the transition duration to make the thumb move faster */
+    transition: all 0.025;
+  }
+  
+  
+  .slider-bar {
+    position: absolute;
+    top: 50%;
+    width: 70%;
+    height: 5px;
+    background-color: #ddd; /* Adjust color as needed */
+    transform: translateY(-50%);
+    z-index: -1; /* Change z-index value */
+    justify-content: center;
+    
+  }
+
+  /* Button styles */
+.btn-custom {
+  background-color: #7aaf65; /* Olive green color */
+  border-color: #7aaf65; /* Olive green border color */
+  color: white; /* White text color */
+}
+
+
+
+/* Define base font size */
+body {
+  font-size: 16px; /* Default font size */
+}
+
+/* Define font sizes for different screen sizes */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  body {
+    font-size: 12px; /* Adjust font size for even smaller screens */
+  }
+}
+
+
+.form-label {
+  font-size: 1.2em; /* Adjust label font size */
+}
+
+
+ 
+
